@@ -1,5 +1,5 @@
 context:
-  version: "5.5.0"
+  version: "6.0.0"
 
 package:
   name: tailspin
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/bensadeh/tailspin/archive/refs/tags/${{ version }}.tar.gz
-  sha256: E9D7CEFB865585BB048A2CCBFCC1F900AE344134D71132A7C48EE0D5AF09CDAF
+  sha256: fb8ed60a4a0e863304034d6f73e115183a9a27811f4a0d2afd76151a547c40d9
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
